@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recording timer</title>
+
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <h1>Recording timer<h1/>
+    <button id="startButton" type="button" name="startButton" onclick="startTimer()">
+      Start timer
+    </button>
+
+
+    <table id="timingsTable" style="visibility:hidden">
+      <th>Time</th>
+      <th>Event</th>
+    </table>
+
+    <button id="addEventButton" type="button" name="addEventButton" onclick="addEvent()" style="visibility:hidden" >
+      Add event
+    </button>
+
+    <br>
+    <br>
+
+    <button id="generateCsvButton" type="button" name="generateCsvButton" onclick="generateCsv()" style="visibility:hidden" >
+      Generate CSV
+    </button>
+  </div>
+
+</body>
+</html>

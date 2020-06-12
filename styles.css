@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #0e0f0e;
+  color: white;
+
+}
+
+button {
+color: #000000 !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #efefef;
+padding: 10px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-weight: bold;
+}
+
+button:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 20px -5px rgba(255,255,255,0.57);
+-moz-box-shadow: 0px 5px 20px -5px rgba(255,255,255,0.57);
+transition: all 0.4s ease 0s;
+background: #707370;
+}
+
+#generateCsvButton:hover {
+  background: #41bf41;
+}
+
+table {
+  margin-left:auto;margin-right:auto;
+}
+
+table, tbody, tr, td, th, #content {
+  text-align: center;
+}
+
+td {
+  font-size: medium;
+}
+
+h5 {
+  size: normal;
+}
+
+input {
+  width: 300px;
+}
